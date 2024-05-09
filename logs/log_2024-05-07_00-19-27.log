@@ -1,0 +1,61 @@
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:31.350633
+Start name method: personal_area
+
+End time: 2024-05-07 00:19:40.294349
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:40.294349
+Start name method: authorization
+
+End time: 2024-05-07 00:19:40.670540
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:42.671063
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:19:43.514319
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:43.514319
+Start name method: hair_dryer_catalog
+
+End time: 2024-05-07 00:19:48.562514
+End name method: hair_dryer_catalog
+URL: https://elmart-shop.ru/catalog/category/feny
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:48.562514
+Start name method: add_рair_dryer_favorites
+
+End time: 2024-05-07 00:19:50.518826
+End name method: add_рair_dryer_favorites
+URL: https://elmart-shop.ru/catalog/category/feny?price-min=500&price-max=1000
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:19:50.518826
+Start name method: favorites_for_рair_dryer
+

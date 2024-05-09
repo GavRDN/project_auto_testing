@@ -1,0 +1,77 @@
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:22.031594
+Start name method: personal_area
+
+End time: 2024-05-06 20:23:26.250435
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:26.250435
+Start name method: authorization
+
+End time: 2024-05-06 20:23:26.674706
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:28.675247
+Start name method: go_in_catalog
+
+End time: 2024-05-06 20:23:29.252041
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:29.252041
+Start name method: smartphone_catalog
+
+End time: 2024-05-06 20:23:31.025813
+End name method: smartphone_catalog
+URL: https://elmart-shop.ru/catalog/category/mobil-nye-telefony
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:31.026811
+Start name method: add_smartphone
+
+End time: 2024-05-06 20:23:36.065147
+End name method: add_smartphone
+URL: https://elmart-shop.ru/catalog/product/realme-c55-8-256gb-green
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:36.065147
+Start name method: cart_for_smartphone
+
+End time: 2024-05-06 20:23:37.435630
+End name method: cart_for_smartphone
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 20:23:37.435630
+Start name method: checkout
+
+End time: 2024-05-06 20:23:39.025943
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----

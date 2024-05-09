@@ -1,0 +1,286 @@
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:08.399817
+Start name method: personal_area
+
+End time: 2024-05-07 00:57:14.082476
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:14.082476
+Start name method: authorization
+
+End time: 2024-05-07 00:57:14.446293
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:16.446809
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:57:17.184152
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:17.184152
+Start name method: hair_dryer_catalog
+
+End time: 2024-05-07 00:57:19.634751
+End name method: hair_dryer_catalog
+URL: https://elmart-shop.ru/catalog/category/feny
+
+-----
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:19.635748
+Start name method: add_рair_dryer_favorites
+
+End time: 2024-05-07 00:57:21.642767
+End name method: add_рair_dryer_favorites
+URL: https://elmart-shop.ru/catalog/category/feny?price-min=500&price-max=1000
+
+-----
+
+-----
+Test: tests/test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:57:21.642767
+Start name method: favorites_for_рair_dryer
+
+End time: 2024-05-07 00:57:26.225794
+End name method: favorites_for_рair_dryer
+URL: https://elmart-shop.ru/account/wishlist
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:36.535791
+Start name method: personal_area
+
+End time: 2024-05-07 00:57:40.958546
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:40.959543
+Start name method: authorization
+
+End time: 2024-05-07 00:57:41.330241
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:43.331195
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:57:44.004251
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:44.005249
+Start name method: smartphone_catalog
+
+End time: 2024-05-07 00:57:45.975891
+End name method: smartphone_catalog
+URL: https://elmart-shop.ru/catalog/category/mobil-nye-telefony
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:45.975891
+Start name method: add_smartphone
+
+End time: 2024-05-07 00:57:52.255869
+End name method: add_smartphone
+URL: https://elmart-shop.ru/catalog/product/lg-m700-platinum-platinum
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:52.255869
+Start name method: cart_for_smartphone
+
+End time: 2024-05-07 00:57:54.167295
+End name method: cart_for_smartphone
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-07 00:57:54.167295
+Start name method: checkout
+
+End time: 2024-05-07 00:57:55.843547
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:07.556098
+Start name method: personal_area
+
+End time: 2024-05-07 00:58:12.213802
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:12.214799
+Start name method: authorization
+
+End time: 2024-05-07 00:58:12.595367
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:14.595866
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:58:15.354158
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:15.354158
+Start name method: tv_catalog
+
+End time: 2024-05-07 00:58:16.850903
+End name method: tv_catalog
+URL: https://elmart-shop.ru/catalog/category/televizory
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:16.850903
+Start name method: add_tv
+
+End time: 2024-05-07 00:58:27.236321
+End name method: add_tv
+URL: https://elmart-shop.ru/catalog/category/televizory?brands%5B%5D=383&brands%5B%5D=99&price-min=10000&price-max=50000
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:27.236321
+Start name method: cart_for_tv
+
+End time: 2024-05-07 00:58:32.445576
+End name method: cart_for_tv
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-07 00:58:32.445576
+Start name method: checkout
+
+End time: 2024-05-07 00:58:34.035137
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:58:44.610648
+Start name method: personal_area
+
+End time: 2024-05-07 00:58:52.222990
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:58:52.222990
+Start name method: authorization
+
+End time: 2024-05-07 00:58:52.594793
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:58:54.595445
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:58:55.342029
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:58:55.342029
+Start name method: fridge_catalog
+
+End time: 2024-05-07 00:58:58.978514
+End name method: fridge_catalog
+URL: https://elmart-shop.ru/catalog/category/holodil-niki
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:58:58.978514
+Start name method: add_fridge
+
+End time: 2024-05-07 00:59:04.116613
+End name method: add_fridge
+URL: https://elmart-shop.ru/catalog/product/indesit-es18
+
+-----
+
+-----
+Test: tests/test_remove_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-07 00:59:04.116613
+Start name method: cart_for_fridge
+
+End time: 2024-05-07 00:59:06.030205
+End name method: cart_for_fridge
+URL: https://elmart-shop.ru/cart
+
+-----

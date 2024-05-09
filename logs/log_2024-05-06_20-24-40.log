@@ -1,0 +1,66 @@
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:24:44.352393
+Start name method: personal_area
+
+End time: 2024-05-06 20:24:57.865114
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:24:57.865114
+Start name method: authorization
+
+End time: 2024-05-06 20:24:58.255631
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:25:00.257415
+Start name method: go_in_catalog
+
+End time: 2024-05-06 20:25:01.068392
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:25:01.068392
+Start name method: fridge_catalog
+
+End time: 2024-05-06 20:25:04.013813
+End name method: fridge_catalog
+URL: https://elmart-shop.ru/catalog/category/holodil-niki
+
+-----
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:25:04.013813
+Start name method: add_fridge
+
+End time: 2024-05-06 20:25:09.454896
+End name method: add_fridge
+URL: https://elmart-shop.ru/catalog/product/indesit-es18
+
+-----
+
+-----
+Test: test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 20:25:09.454896
+Start name method: cart_for_fridge
+
+End time: 2024-05-06 20:25:11.963453
+End name method: cart_for_fridge
+URL: https://elmart-shop.ru/cart
+
+-----

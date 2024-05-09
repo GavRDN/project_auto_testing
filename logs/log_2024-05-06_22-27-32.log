@@ -1,0 +1,188 @@
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:37.006568
+Start name method: personal_area
+
+End time: 2024-05-06 22:27:44.186113
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:44.187111
+Start name method: authorization
+
+End time: 2024-05-06 22:27:44.553161
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:46.553823
+Start name method: go_in_catalog
+
+End time: 2024-05-06 22:27:47.245191
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:47.245191
+Start name method: smartphone_catalog
+
+End time: 2024-05-06 22:27:49.441913
+End name method: smartphone_catalog
+URL: https://elmart-shop.ru/catalog/category/mobil-nye-telefony
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:49.441913
+Start name method: add_smartphone
+
+End time: 2024-05-06 22:27:54.603026
+End name method: add_smartphone
+URL: https://elmart-shop.ru/catalog/product/poco-x5-5g-8-256gb-green
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:27:54.603026
+Start name method: cart_for_smartphone
+
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:27:59.353293
+Start name method: personal_area
+
+End time: 2024-05-06 22:28:04.376714
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:04.377711
+Start name method: authorization
+
+End time: 2024-05-06 22:28:04.788400
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:06.788730
+Start name method: go_in_catalog
+
+End time: 2024-05-06 22:28:07.469011
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:07.469011
+Start name method: tv_catalog
+
+End time: 2024-05-06 22:28:09.002373
+End name method: tv_catalog
+URL: https://elmart-shop.ru/catalog/category/televizory
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:09.002373
+Start name method: add_tv
+
+End time: 2024-05-06 22:28:19.691599
+End name method: add_tv
+URL: https://elmart-shop.ru/catalog/category/televizory?brands%5B%5D=383&brands%5B%5D=99&price-min=10000&price-max=50000
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:19.691599
+Start name method: cart_for_tv
+
+End time: 2024-05-06 22:28:24.989558
+End name method: cart_for_tv
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: tests/test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 22:28:24.990555
+Start name method: checkout
+
+End time: 2024-05-06 22:28:26.484403
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----
+
+-----
+Test: tests/test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 22:28:36.715627
+Start name method: personal_area
+
+End time: 2024-05-06 22:28:42.826511
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 22:28:42.827508
+Start name method: authorization
+
+End time: 2024-05-06 22:28:43.189287
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 22:28:45.191104
+Start name method: go_in_catalog
+
+End time: 2024-05-06 22:28:45.910047
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 22:28:45.910047
+Start name method: fridge_catalog
+
+End time: 2024-05-06 22:28:52.988745
+End name method: fridge_catalog
+URL: https://elmart-shop.ru/catalog/category/holodil-niki
+
+-----
+
+-----
+Test: tests/test_removing_from_cart.py::test_removing_from_cart (call)
+Start time: 2024-05-06 22:28:52.988745
+Start name method: add_fridge
+

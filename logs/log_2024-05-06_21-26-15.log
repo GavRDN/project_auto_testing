@@ -1,0 +1,77 @@
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:19.478194
+Start name method: personal_area
+
+End time: 2024-05-06 21:26:23.848019
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:23.849017
+Start name method: authorization
+
+End time: 2024-05-06 21:26:24.228601
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:26.229074
+Start name method: go_in_catalog
+
+End time: 2024-05-06 21:26:27.608105
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:27.608105
+Start name method: smartphone_catalog
+
+End time: 2024-05-06 21:26:30.232425
+End name method: smartphone_catalog
+URL: https://elmart-shop.ru/catalog/category/mobil-nye-telefony
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:30.232425
+Start name method: add_smartphone
+
+End time: 2024-05-06 21:26:36.422906
+End name method: add_smartphone
+URL: https://elmart-shop.ru/catalog/product/infinix-note-30-pro-8-256gb-gold
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:36.422906
+Start name method: cart_for_smartphone
+
+End time: 2024-05-06 21:26:37.769102
+End name method: cart_for_smartphone
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 21:26:37.769102
+Start name method: checkout
+
+End time: 2024-05-06 21:26:39.372467
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----

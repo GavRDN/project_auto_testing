@@ -1,0 +1,50 @@
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:16:47.722741
+Start name method: personal_area
+
+End time: 2024-05-06 22:16:55.154736
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:16:55.155733
+Start name method: authorization
+
+End time: 2024-05-06 22:16:55.521949
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:16:57.522712
+Start name method: go_in_catalog
+
+End time: 2024-05-06 22:16:58.427118
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:16:58.428116
+Start name method: smartphone_catalog
+
+End time: 2024-05-06 22:17:00.625114
+End name method: smartphone_catalog
+URL: https://elmart-shop.ru/catalog/category/mobil-nye-telefony
+
+-----
+
+-----
+Test: tests/test_buy_random_smartphone.py::test_buy_random_smartphone (call)
+Start time: 2024-05-06 22:17:00.625114
+Start name method: add_smartphone
+

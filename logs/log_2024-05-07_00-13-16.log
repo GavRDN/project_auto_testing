@@ -1,0 +1,39 @@
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:13:20.466830
+Start name method: personal_area
+
+End time: 2024-05-07 00:13:25.284313
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:13:25.284313
+Start name method: authorization
+
+End time: 2024-05-07 00:13:25.657034
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:13:27.657565
+Start name method: go_in_catalog
+
+End time: 2024-05-07 00:13:28.401103
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_add_remove_favorites.py::test_add_remove_favorites (call)
+Start time: 2024-05-07 00:13:28.401103
+Start name method: hair_dryer_catalog
+

@@ -1,0 +1,77 @@
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:23:56.099763
+Start name method: personal_area
+
+End time: 2024-05-06 20:24:05.816541
+End name method: personal_area
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:05.816541
+Start name method: authorization
+
+End time: 2024-05-06 20:24:06.189609
+End name method: authorization
+URL: https://elmart-shop.ru/login
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:08.189958
+Start name method: go_in_catalog
+
+End time: 2024-05-06 20:24:09.210795
+End name method: go_in_catalog
+URL: https://elmart-shop.ru/catalog
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:09.211791
+Start name method: tv_catalog
+
+End time: 2024-05-06 20:24:11.058850
+End name method: tv_catalog
+URL: https://elmart-shop.ru/catalog/category/televizory
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:11.058850
+Start name method: add_tv
+
+End time: 2024-05-06 20:24:21.105731
+End name method: add_tv
+URL: https://elmart-shop.ru/catalog/category/televizory?brands%5B%5D=383&brands%5B%5D=99&price-min=10000&price-max=50000
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:21.105731
+Start name method: cart_for_tv
+
+End time: 2024-05-06 20:24:26.494091
+End name method: cart_for_tv
+URL: https://elmart-shop.ru/cart
+
+-----
+
+-----
+Test: test_buy_tv.py::test_buy_tv (call)
+Start time: 2024-05-06 20:24:26.494091
+Start name method: checkout
+
+End time: 2024-05-06 20:24:28.156191
+End name method: checkout
+URL: https://elmart-shop.ru/cart/checkout
+
+-----
