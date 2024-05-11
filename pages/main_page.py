@@ -9,11 +9,7 @@ from utilities.logger import Logger
 
 class Main_page(Base):
 
-    url = 'https://elmart-shop.ru/'
-    
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
+    url = 'https://elmart-shop.ru/'  
         
     # Locators
 
@@ -45,7 +41,7 @@ class Main_page(Base):
     # Methods
         
     def personal_area(self):
-        with allure.step('Personal area'):
+        with allure.step('Личный кабинет'):
             Logger.add_start_step(method='personal_area')
 
             self.driver.get(self.url)
@@ -57,7 +53,7 @@ class Main_page(Base):
             Logger.add_end_step(url=self.driver.current_url, method='personal_area')
         
     def go_in_catalog(self):
-        with allure.step('Go in catalog'):
+        with allure.step('Переход в каталог'):
             Logger.add_start_step(method='go_in_catalog')
 
             self.click_catalog_button()

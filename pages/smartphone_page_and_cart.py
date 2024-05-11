@@ -9,12 +9,6 @@ from utilities.logger import Logger
 
 
 class Smartphone(Base):
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-        self.random_model = None
-        self.locator_model = None
         
     # Locators
 
@@ -88,7 +82,7 @@ class Smartphone(Base):
     # Methods
 
     def add_smartphone(self):
-        with allure.step('Add smartphone'):
+        with allure.step('Добавление смартфона'):
             Logger.add_start_step(method='add_smartphone')
 
             try:
@@ -127,7 +121,7 @@ class Smartphone(Base):
             Logger.add_end_step(url=self.driver.current_url, method='add_smartphone')
 
     def cart_for_smartphone(self):
-        with allure.step('Cart for smartphone'):
+        with allure.step('Корзина'):
             Logger.add_start_step(method='cart_for_smartphone')
 
             self.click_button_cart()

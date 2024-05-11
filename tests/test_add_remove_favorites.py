@@ -1,10 +1,7 @@
-# import sys
-# sys.path.append("E:\\finaly_project_el_market") # если не находит модули
 
 import allure
 import time
 from pages.catalog_page import Catalog
-from pages.checkout_page import Checkout
 from pages.hair_dryer_page_and_favorites import Hair_dryer
 from pages.login_page import Login_page
 from pages.main_page import Main_page
@@ -12,7 +9,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-@allure.description('Test add and remove favorites')
+@allure.description('Тест: добавление и удаление товара из списка желаемых товаров')
+
 def test_add_remove_favorites():
     
     options = webdriver.ChromeOptions()

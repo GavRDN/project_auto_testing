@@ -8,10 +8,6 @@ from base.base_class import Base
 
 
 class Login_page(Base):
-    
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
 
     # Locators
 
@@ -51,7 +47,7 @@ class Login_page(Base):
     # Methods
         
     def authorization(self):
-        with allure.step('Authorization'):
+        with allure.step('Авторизация'):
             Logger.add_start_step(method='authorization')
 
             self.get_current_url()

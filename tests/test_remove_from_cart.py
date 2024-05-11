@@ -1,5 +1,3 @@
-# import sys
-# sys.path.append("E:\\finaly_project_el_market") # если не находит модули
 
 import allure
 import time
@@ -10,9 +8,9 @@ from pages.main_page import Main_page
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from pages.tv_page_and_cart import Tv
 
-@allure.description('Test removing from cart')
+@allure.description('Тест: удаление товара из корзины')
+
 def test_removing_from_cart():
     
     options = webdriver.ChromeOptions()

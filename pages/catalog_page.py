@@ -8,10 +8,6 @@ from utilities.logger import Logger
 
 class Catalog(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators
 
     smartphone_and_other = './/div[text()="Смартфоны, телефоны, часы"]/..'
@@ -89,7 +85,7 @@ class Catalog(Base):
     # Methods 
         
     def smartphone_catalog(self):
-        with allure.step('Smartphone catalog'):
+        with allure.step('Каталог смартфонов'):
             Logger.add_start_step(method='smartphone_catalog')
             self.get_current_url()
             self.assert_url('https://elmart-shop.ru/catalog', 'Страница "Каталог"')
@@ -99,7 +95,7 @@ class Catalog(Base):
             Logger.add_end_step(url=self.driver.current_url, method='smartphone_catalog')
 
     def tv_catalog(self):
-        with allure.step('Tv catalog'):
+        with allure.step('Каталог телевизоров'):
             Logger.add_start_step(method='tv_catalog')
             self.get_current_url()
             self.assert_url('https://elmart-shop.ru/catalog', 'Страница "Каталог"')
@@ -109,7 +105,7 @@ class Catalog(Base):
             Logger.add_end_step(url=self.driver.current_url, method='tv_catalog')
 
     def fridge_catalog(self):
-        with allure.step('Fridge catalog'):
+        with allure.step('Каталог холодильников'):
             Logger.add_start_step(method='fridge_catalog')
             self.get_current_url()
             self.assert_url('https://elmart-shop.ru/catalog', 'Страница "Каталог"')
@@ -119,7 +115,7 @@ class Catalog(Base):
             Logger.add_end_step(url=self.driver.current_url, method='fridge_catalog')
 
     def hair_dryer_catalog(self):
-        with allure.step('Рair dryer catalog'):
+        with allure.step('Каталог фенов'):
             Logger.add_start_step(method='hair_dryer_catalog')
             self.get_current_url()
             self.assert_url('https://elmart-shop.ru/catalog', 'Страница "Каталог"')

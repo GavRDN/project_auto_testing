@@ -4,11 +4,13 @@ from random import choice
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
+screen_path = 'E:\\project_el_mart\\screen\\' 
 
 class Base():
 
     def __init__(self, driver):
         self.driver = driver
+        self.screenshot_path = None
 
     """Текущий URL"""
 
@@ -36,7 +38,7 @@ class Base():
     def get_screenshot(self, name):
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = f'{name} screenshot {now_date}.png'
-        self.driver.save_screenshot(f'C:\\project_el_mart\\screen\\{name_screenshot}')
+        self.driver.save_screenshot(f'{screen_path}{name_screenshot}')
         print(f'Скриншот: {name}')
 
     """Наведение курсора"""

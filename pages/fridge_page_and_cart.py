@@ -10,10 +10,6 @@ from utilities.logger import Logger
 
 class Fridge(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators for Fridge Page
 
     filter_manufacturer = './/label[text()="INDESIT"]/..'
@@ -130,7 +126,7 @@ class Fridge(Base):
     # Methods 
 
     def add_fridge(self):
-        with allure.step('Add fridge'):
+        with allure.step('Добавление холодильника'):
             Logger.add_start_step(method='add_fridge')
 
             self.get_current_url() 
@@ -159,7 +155,7 @@ class Fridge(Base):
             Logger.add_end_step(url=self.driver.current_url, method='add_fridge')
 
     def cart_for_fridge(self):
-        with allure.step('Cart for fridge'):
+        with allure.step('Корзина'):
             Logger.add_start_step(method='cart_for_fridge')
 
             self.click_button_cart()

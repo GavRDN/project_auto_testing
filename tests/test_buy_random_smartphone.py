@@ -1,5 +1,3 @@
-# import sys
-# sys.path.append("E:\\finaly_project_el_market")  # если не находит модули
 
 import allure
 import time
@@ -12,7 +10,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-@allure.description('Test buy random smartphone')
+@allure.description('Тест: покупка рандомного смартфона')
+
 def test_buy_random_smartphone():
     
     options = webdriver.ChromeOptions()

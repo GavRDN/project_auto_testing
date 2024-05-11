@@ -10,10 +10,6 @@ from utilities.logger import Logger
 
 class Tv_broken_locator(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators for TV Page
 
     filter_manufacturer_1 = './/label[text()="ASANO"]/..'
@@ -200,7 +196,7 @@ class Tv_broken_locator(Base):
     # Methods 
 
     def add_tv(self):
-        with allure.step('Add tv'):
+        with allure.step('Добавление телевизора'):
             Logger.add_start_step(method='add_tv')
 
             self.get_current_url() 
@@ -239,7 +235,7 @@ class Tv_broken_locator(Base):
             Logger.add_end_step(url=self.driver.current_url, method='add_tv')
 
     def cart_for_tv(self):
-        with allure.step('Cart for tv'):
+        with allure.step('Корзина'):
             Logger.add_start_step(method='cart_for_tv')
 
             self.click_button_cart()

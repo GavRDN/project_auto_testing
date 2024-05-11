@@ -10,10 +10,6 @@ from utilities.logger import Logger
 
 class Hair_dryer(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     # Locators for Hair dryer Page
 
     product = '//div[@class="title"]/a[contains(text(), "Pioneer HD-1010")]'
@@ -122,7 +118,7 @@ class Hair_dryer(Base):
     # Methods 
 
     def add_рair_dryer_favorites(self):
-        with allure.step('Add рair dryer favorites'):
+        with allure.step('Добавление товара в избранное'):
             Logger.add_start_step(method='add_рair_dryer_favorites')
 
             self.get_current_url()   
@@ -142,7 +138,7 @@ class Hair_dryer(Base):
             Logger.add_end_step(url=self.driver.current_url, method='add_рair_dryer_favorites')
 
     def favorites_for_рair_dryer(self):
-        with allure.step('Favorites for рair dryer'):
+        with allure.step('Страница "Избранное"'):
             Logger.add_start_step(method='favorites_for_рair_dryer')
 
             time.sleep(2)

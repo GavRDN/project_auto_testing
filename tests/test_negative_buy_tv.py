@@ -1,5 +1,3 @@
-# import sys
-# sys.path.append("E:\\finaly_project_el_market") # если не находит модули
 
 import allure
 import time
@@ -12,7 +10,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.tv_page_broken_locator import Tv_broken_locator
 
-@allure.description('Test negative buy tv')
+@allure.description('Негативный тест: покупка телевизора')
+
 def test_negative_buy_tv():
     
     options = webdriver.ChromeOptions()

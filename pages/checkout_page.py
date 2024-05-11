@@ -10,15 +10,13 @@ from utilities.logger import Logger
 
 class Checkout(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
     fake = Faker()
     random_name = fake.first_name()
     random_lastname = fake.last_name() 
     random_phone_number = fake.random_number(digits=11)
     random_comment = fake.text()
+
+    # Locators
           
     checkout_button = '//a[@class="le-button big"]'
     city_dropdown = '//select[@id="order-city"]'
@@ -97,7 +95,7 @@ class Checkout(Base):
     # Methods
         
     def checkout(self):
-        with allure.step('Checkout'):
+        with allure.step('Оформление заказа'):
             Logger.add_start_step(method='checkout')
             self.click_checkout_button()
             self.get_current_url()
