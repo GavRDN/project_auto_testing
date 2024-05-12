@@ -5,7 +5,7 @@ path_logs = 'E:\\git\\project_el_mart\\logs\\'
 
 
 class Logger():
-    file_name = f"{path_logs}logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
+    file_name = f"{path_logs}log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
 
     @classmethod
     def write_log_to_file(cls, data: str):

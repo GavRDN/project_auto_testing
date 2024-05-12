@@ -1,0 +1,2 @@
+Старт теста
+Ошибка на шаге 1: [Errno 2] No such file or directory: 'E:\\git\\project_el_mart\\logs\\logs\\log_2024-05-12_22-12-38.log'
