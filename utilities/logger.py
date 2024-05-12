@@ -1,7 +1,8 @@
 import datetime
 import os
 
-path_logs = 'E:\\project_el_mart\\logs\\'
+path_logs = 'E:\\git\\project_el_mart\\logs\\'
+
 
 class Logger():
     file_name = f"{path_logs}logs\\log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"

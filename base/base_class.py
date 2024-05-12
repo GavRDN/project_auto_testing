@@ -4,7 +4,7 @@ from random import choice
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
-screen_path = 'E:\\project_el_mart\\screen\\' 
+screen_path = 'E:\\git\\project_el_mart\\screen\\' 
 
 class Base():
 
