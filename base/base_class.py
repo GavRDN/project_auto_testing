@@ -1,11 +1,11 @@
 
 import datetime
+import os
 from random import choice
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
-screen_path = 'E:\\git\\project_el_mart\\screen\\' 
-
+ 
 class Base():
 
     def __init__(self, driver):
@@ -36,6 +36,7 @@ class Base():
     """Скриншот"""
 
     def get_screenshot(self, name):
+        screen_path = os.path.join('screenshots', '')
         now_date = datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = f'{name} screenshot {now_date}.png'
         self.driver.save_screenshot(f'{screen_path}{name_screenshot}')
