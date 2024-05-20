@@ -12,13 +12,13 @@ class Tv(Base):
 
     # Locators for TV Page
 
-    filter_manufacturer_1 = './/label[text()="ASANO"]/..'
+    filter_manufacturer_1 = './/label[text()="LG"]/..'
     filter_manufacturer_2 = './/label[text()="BQ"]/..'
 
     button_apply_filters = '//button[@class="btn btn-primary btn-block"]'
 
-    product_1 = '//div[@class="title"]/a[contains(text(), "ASANO 28LH7010T")]'
-    product_1_add_cart = '//div[@class="add-cart-button"]//a[@data-id="47141"]'
+    product_1 = '//div[@class="title"]/a[contains(text(), "LG 49LH513V")]'
+    product_1_add_cart = '//div[@class="add-cart-button"]//a[@data-id="47382"]'
 
     product_2 = '//div[@class="title"]/a[contains(text(), "BQ 40S03B Black")]'
     product_2_add_cart = '//div[@class="add-cart-button"]//a[@data-id="45387"]'
@@ -28,11 +28,11 @@ class Tv(Base):
     min_price = '//input[@name="price-min"]' 
     max_price = '//input[@name="price-max"]'
     value_min_price = '10000'
-    value_max_price = '50000'
+    value_max_price = '70000'
 
     # Locators for Cart
 
-    value_text_1_title = '//div[@class="title"]//a[@href="/catalog/product/asano-28lh7010t"]'
+    value_text_1_title = '//div[@class="title"]//a[@href="/catalog/product/lg-49lh513v"]'
     value_text_2_title = '//div[@class="title"]//a[@href="/catalog/product/bq-40s03b-black"]'
 
     value_price_1 = ''

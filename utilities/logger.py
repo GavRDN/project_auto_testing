@@ -4,7 +4,7 @@ import os
 
 class Logger():
     path_logs = os.path.join('logs', '')
-    file_name = f"{path_logs}log_{datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log"
+    file_name = f"{path_logs}log_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 
     @classmethod
     def write_log_to_file(cls, data: str):
